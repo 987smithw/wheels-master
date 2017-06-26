@@ -2,6 +2,11 @@ a {
   font-family: Arial, sans-serif;
   font-size: 20px;
 }
+h1 {
+  font-family: 'play', sans-serif;
+  font-size: 16px;
+}
+
 
 a:link    { color: blue;  }
 a:visited { color: red;   }

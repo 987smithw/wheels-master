@@ -2,13 +2,19 @@ a {
   font-family: Arial, sans-serif;
   font-size: 20px;
 }
-h1 {
-  font-family: 'play', sans-serif;
-  font-size: 16px;
-}
-
-
 a:link    { color: blue;  }
 a:visited { color: red;   }
 a:hover   { color: green; }
 a:active  { color: pink;  }
+header {
+  background-color: #55abff;
+  text-align: center;
+}
+h1 {
+  font-family: 'play', sans-serif;
+  font-size: 16px;
+  color: #4a3729;
+}
+body {
+  background-color: #ffdc89;
+}

@@ -1,5 +1,5 @@
 a {
-  font-family: Arial, sans-serif;
+  font-family: 'Arial', sans-serif;
   font-size: 20px;
 }
 a:link    { color: blue;  }
@@ -17,4 +17,16 @@ h1 {
 }
 body {
   background-color: #ffdc89;
+}
+main {
+  text-align: center;
+}
+h2 {
+  font-family: 'roboto', sans-serif;
+}
+h3{
+  font-family: 'times', serif;
+}
+p {
+  font-family: 'arial', serif;
 }

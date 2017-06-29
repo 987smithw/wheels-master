@@ -1,3 +1,5 @@
+/* Global */
+
 a {
   font-family: 'Arial', sans-serif;
   font-size: 20px;
@@ -6,15 +8,21 @@ a:link    { color: blue;  }
 a:visited { color: red;   }
 a:hover   { color: green; }
 a:active  { color: pink;  }
+
+/* Header */
+
 header {
-  background-image: url('images/beach-wide.jpg');
+  background-image: url('images/sky.jpg');
   text-align: center;
   width: 800px;
   margin: auto;
 }
 h1 {
   font-family: 'play', sans-serif;
-  color: #4a3729;
+  color: #7a1b00;
+
+/* Main Content Area */
+
 }
 body {
   background-color: #ffdc89;
@@ -34,17 +42,25 @@ p {
   width: 800px;
   text-align: center;
   margin: auto;
+  color: #e87e0c
+}
+li {
+  color: #55abff
 }
 hr {
   color: #e87c0c;
   width: 800px;
+  height: 15px;
 }
 section {
   width: 180px;
   margin: auto;
 }
+
+/* footer */
+
 footer {
-  background-image: url('images/beach-wide.jpg');
+  background-image: url('images/sky.jpg');
   text-align: center;
   width: 800px;
   height: 100px;

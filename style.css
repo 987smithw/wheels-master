@@ -7,26 +7,46 @@ a:visited { color: red;   }
 a:hover   { color: green; }
 a:active  { color: pink;  }
 header {
-  background-color: #55abff;
+  background-image: url('images/beach-wide.jpg');
   text-align: center;
+  width: 800px;
+  margin: auto;
 }
 h1 {
   font-family: 'play', sans-serif;
-  font-size: 16px;
   color: #4a3729;
 }
 body {
   background-color: #ffdc89;
 }
 main {
-  text-align: center;
+
 }
 h2 {
   font-family: 'roboto', sans-serif;
+  text-align: center;
 }
 h3{
   font-family: 'times', serif;
 }
 p {
   font-family: 'arial', serif;
+  width: 800px;
+  text-align: center;
+  margin: auto;
+}
+hr {
+  color: #e87c0c;
+  width: 800px;
+}
+section {
+  width: 180px;
+  margin: auto;
+}
+footer {
+  background-image: url('images/beach-wide.jpg');
+  text-align: center;
+  width: 800px;
+  height: 100px;
+  margin: auto;
 }

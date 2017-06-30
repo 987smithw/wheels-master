@@ -5,64 +5,76 @@ a {
   font-size: 20px;
 }
 a:link    { color: blue;  }
-a:visited { color: red;   }
-a:hover   { color: green; }
+a:visited { color: orange;   }
+a:hover   { color: black; }
 a:active  { color: pink;  }
+
+.wrapper {
+  width: 800px;
+  margin: auto;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  background: linear-gradient(to bottom, orange 0%,orange 25%,#000000 25%,white 25%,white 100%);
+}
 
 /* Header */
 
 header {
-  background-image: url('images/sky.jpg');
-  text-align: center;
-  width: 800px;
-  margin: auto;
 }
 h1 {
   font-family: 'play', sans-serif;
-  color: #7a1b00;
+  color: blue;
+  text-align: left;
+  width: 800px;
+}
 
 /* Main Content Area */
 
-}
-body {
-  background-color: #ffdc89;
-}
-main {
 
-}
 h2 {
   font-family: 'roboto', sans-serif;
-  text-align: center;
+  color: orange;
 }
+
 h3{
   font-family: 'times', serif;
 }
+
 p {
   font-family: 'arial', serif;
-  width: 800px;
-  text-align: center;
+  text-align: left;
   margin: auto;
-  color: #e87e0c
+  width: 800px;
+  color: black;
 }
+
+ul {
+}
+
 li {
-  color: #55abff
+  color: #000;
+  list-style-type: circle;
 }
+
 hr {
   color: #e87c0c;
   width: 800px;
-  height: 15px;
 }
+
 section {
-  width: 180px;
-  margin: auto;
+  text-align: left;
 }
 
 /* footer */
 
 footer {
-  background-image: url('images/sky.jpg');
+  background-color: orange;
   text-align: center;
-  width: 800px;
   height: 100px;
   margin: auto;
 }
